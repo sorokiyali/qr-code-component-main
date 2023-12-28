@@ -1,0 +1,20 @@
+
+  /* <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> */
+  .container{
+    background-color: hsl(212, 45%, 89%);
+    width: 95rem;
+    height: 44.6rem;
+    font-size: 15px;
+    
+   
+
+  }
+
+  .container-Qr{
+    width: 60rem;
+    height: 40rem;
+    background-color:hsl(hsl(0, 0%, 100%));
+  }
