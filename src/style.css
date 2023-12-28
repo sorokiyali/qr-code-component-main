@@ -1,20 +1,69 @@
-
-  /* <style>
+/* <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style> */
-  .container{
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    /* border: 0; */
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-size: 0.85rem;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: hsl(212, 45%, 89%);
-    width: 95rem;
-    height: 44.6rem;
     font-size: 15px;
-    
-   
+    width: 100px
+}
 
-  }
+.container {
+    text-align: center;
+    margin: 10rem 15rem 1rem 41rem;
 
-  .container-Qr{
-    width: 60rem;
-    height: 40rem;
-    background-color:hsl(hsl(0, 0%, 100%));
-  }
+
+}
+
+.container-Qr {
+    width: 28rem;
+    height: 38rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5%;
+}
+
+.code-qr {
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    color: hsl(218, 44%, 22%)
+}
+
+p {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
+
+@media only screen and (max-width: 375px) {
+    container {
+        padding: 65px;
+    }
+}
